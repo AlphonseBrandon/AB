@@ -1,3 +1,10 @@
+---
+layout: page
+title: contact
+permalink: /contact/
+---
+
+
 # Email: 
 alphonse.brand@gmail.com
 
