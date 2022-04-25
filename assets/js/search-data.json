@@ -27,6 +27,17 @@
   
 
   
+      ,"page2": {
+          "title": "contact",
+          "content": "Email: . alphonse.brand@gmail.com . Phone &amp; Whatsapp . (+237) 678 139 861 . Linkedin . linkedin.com/in/alphonsebrandon . Github . github.com/alphonsebrandon . Twitter . twitter.com/alphonsebrando2 .",
+          "url": "https://alphonsebrandon.github.io/AB/contact/",
+          "relUrl": "/contact/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -48,7 +59,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://alphonsebrandon.github.io/AB/robots.txt",
