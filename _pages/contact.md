@@ -4,18 +4,19 @@ title: contact
 permalink: /contact/
 ---
 
+You can contact me through the following channels
 
-# Email: 
+### Email: 
 alphonse.brand@gmail.com
 
-# Phone & Whatsapp
+### Phone & Whatsapp
 (+237) 678 139 861
 
-# Linkedin
-linkedin.com/in/alphonsebrandon
+### Linkedin
+[Click Linkedin profile](https://linkedin.com/in/alphonsebrandon)
 
-# Github
-github.com/alphonsebrandon
+### Github
+[Click Github Profile](https://github.com/alphonsebrandon)
 
-# Twitter
-twitter.com/alphonsebrando2
+### Twitter
+[Click Twitter profile](https://twitter.com/alphonsebrando2)
