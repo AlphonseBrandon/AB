@@ -11,8 +11,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Foreign debt is money borrowed by a government, corporation or private household from another country’s government or private lenders" />
 <meta property="og:description" content="Foreign debt is money borrowed by a government, corporation or private household from another country’s government or private lenders" />
-<link rel="canonical" href="https://alphonsebrandon.github.io/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis.html" />
-<meta property="og:url" content="https://alphonsebrandon.github.io/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis.html" />
+<link rel="canonical" href="https://alphonsebrandon.github.io/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis_with_sql.html" />
+<meta property="og:url" content="https://alphonsebrandon.github.io/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis_with_sql.html" />
 <meta property="og:site_name" content="Alphonse Brandon" />
 <meta property="og:image" content="https://alphonsebrandon.github.io/AB/images/sri_lankas_dept.png" />
 <meta property="og:type" content="article" />
@@ -21,7 +21,7 @@
 <meta property="twitter:image" content="https://alphonsebrandon.github.io/AB/images/sri_lankas_dept.png" />
 <meta property="twitter:title" content="Analyzing International Debt Statistics" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Alphonse Brandon"},"dateModified":"2022-05-19T00:00:00-05:00","datePublished":"2022-05-19T00:00:00-05:00","description":"Foreign debt is money borrowed by a government, corporation or private household from another country’s government or private lenders","headline":"Analyzing International Debt Statistics","image":"https://alphonsebrandon.github.io/AB/images/sri_lankas_dept.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://alphonsebrandon.github.io/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis.html"},"url":"https://alphonsebrandon.github.io/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Alphonse Brandon"},"dateModified":"2022-05-19T00:00:00-05:00","datePublished":"2022-05-19T00:00:00-05:00","description":"Foreign debt is money borrowed by a government, corporation or private household from another country’s government or private lenders","headline":"Analyzing International Debt Statistics","image":"https://alphonsebrandon.github.io/AB/images/sri_lankas_dept.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://alphonsebrandon.github.io/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis_with_sql.html"},"url":"https://alphonsebrandon.github.io/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis_with_sql.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/AB/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://alphonsebrandon.github.io/AB/feed.xml" title="Alphonse Brandon" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -126,24 +126,24 @@ window.onload = wrap_img;
         <div class="pb-5 d-flex flex-justify-center">
           <div class="px-2">
 
-    <a href="https://github.com/AlphonseBrandon/AB/tree/master/_notebooks/2022_05_20_international_debt_analysis.ipynb" role="button" target="_blank">
+    <a href="https://github.com/AlphonseBrandon/AB/tree/master/_notebooks/2022_05_20_international_debt_analysis_with_sql.ipynb" role="button" target="_blank">
 <img class="notebook-badge-image" src="/AB/assets/badges/github.svg" alt="View On GitHub">
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://mybinder.org/v2/gh/AlphonseBrandon/AB/master?filepath=_notebooks%2F2022_05_20_international_debt_analysis.ipynb" target="_blank">
+    <a href="https://mybinder.org/v2/gh/AlphonseBrandon/AB/master?filepath=_notebooks%2F2022_05_20_international_debt_analysis_with_sql.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/AB/assets/badges/binder.svg" alt="Open In Binder"/>
     </a>
 </div>
 
           <div class="px-2">
-    <a href="https://colab.research.google.com/github/AlphonseBrandon/AB/blob/master/_notebooks/2022_05_20_international_debt_analysis.ipynb" target="_blank">
+    <a href="https://colab.research.google.com/github/AlphonseBrandon/AB/blob/master/_notebooks/2022_05_20_international_debt_analysis_with_sql.ipynb" target="_blank">
         <img class="notebook-badge-image" src="/AB/assets/badges/colab.svg" alt="Open In Colab"/>
     </a>
 </div>
           <div class="px-2">
-  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2FAlphonseBrandon%2FAB%2Fblob%2Fmaster%2F_notebooks%2F2022_05_20_international_debt_analysis.ipynb" target="_blank">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2FAlphonseBrandon%2FAB%2Fblob%2Fmaster%2F_notebooks%2F2022_05_20_international_debt_analysis_with_sql.ipynb" target="_blank">
       <img class="notebook-badge-image" src="/AB/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
   </a>
 </div>
@@ -171,7 +171,7 @@ window.onload = wrap_img;
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
-# file to edit: _notebooks/2022_05_20_international_debt_analysis.ipynb
+# file to edit: _notebooks/2022_05_20_international_debt_analysis_with_sql.ipynb
 -->
 
 <div class="container" id="notebook-container">
@@ -1210,7 +1210,7 @@ LIMIT 10
         theme="github-light"
         crossorigin="anonymous"
         async>
-</script><a class="u-url" href="/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis.html" hidden></a>
+</script><a class="u-url" href="/AB/sql/data%20visualization/data%20mining/python/2022/05/19/_05_20_international_debt_analysis_with_sql.html" hidden></a>
 </article>
 
       </div>
